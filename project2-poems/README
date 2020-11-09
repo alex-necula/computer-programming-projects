@@ -1,0 +1,30 @@
+README 
+
+Fisiere incluse:
+tema2.c
+/util
+Makefile
+README
+
+Cerinta 0:
+Consola interactiva a fost implementata folosind un while care este intrerupt in momentul primirii comenzii quit. 
+Poezia este salvata in memoria interna intr-o matrice, fiecare linie corespunzand unui vers
+
+Cerinta 1:
+Prima litera va fi transformata cu toupper, iar restul cu tolower
+
+Cerinta 2:
+Sunt copiate doar caracterele care corespund cerintei in sirul existent.
+
+Cerinta 3:
+In functie de intalnirea unei litere mici sau mari, generam sample si schimbam folosind toupper sau tolower
+
+Cerinta 4:
+Fiecare vers este separat in cuvinte, pentru care este verificata existenta diminutivelor. Intr-un sir temporar sunt copiate cuvintele modificate sau nu, alaturi de caracterele speciale
+
+Cerinta 5:
+In functie de fiecare tip de rima, stabilim indicele versurilor care trebuie sa rimeze. Pentru a identifica ultimul cuvant, gasim aparitia ultimului spatiu si copiam in siruri temporare, cuvantul si caracterele speciale de dupa el.
+Verificam daca exista sinonim si daca acesta rimeaza si modificam versul initial in caz afirmativ.
+Lista de sinonime este sortata anticipat folosind bubble sort.
+
+

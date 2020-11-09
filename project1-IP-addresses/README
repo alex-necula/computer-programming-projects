@@ -1,0 +1,44 @@
+README 
+
+Fisiere incluse:
+ip.c
+Makefile
+README
+
+Valorile IP sunt citite intr-un vector intreg cu 4 elemente, fiecare reprezentand un byte din IP.
+Adresele NET vor fi memorate intr-o matrice cu N linii si 5 coloane, unde a 5-a coloana va reprezenta masca in forma prefixata.
+
+Task #0:
+Folosim functia afisare_IP, care afiseaza fiecare byte din vectorul intreg.
+
+Task #1:
+Folosind functia creare_masca, se memoreaza intr-un vector fiecare byte al mastii, dupa care se afiseaza.
+
+Task #2:
+Functia conversie va afisa fiecare byte al vectorului in baza 8, respectiv 16.
+
+Task #3:
+Calculam adresa de retea, aplicand "si" pe biti, pe fiecare byte al vectorului.
+
+Task #4:
+Calculam adresa de broadcast, aplicand "sau" si "negare" pe biti, pe fiecare byte al vectorului. Adaugam 256 deoarece nu am folosit unsigned int.
+
+Task #5:
+Calculam adresele de retea ale fiecarui IP, dupa care comparam fiecare byte al lor.
+
+Task #6:
+Facem conversia in binar a mastii, dupa care transformam in char fiecare byte. Aplicam functia verificare_masca pe fiecare byte, masca fiind corectata daca nu era valida.
+
+Task #7:
+Daca masca era valida, afisam masca.
+Daca masca a fost corectata, convertim inapoi in baza 10 masca si o afisam.
+
+Task #8:
+Facem conversia in binar a IP-ului, dupa care convertim in char fiecare byte si il afisam.
+
+Task #9:
+Calculam adresa de retea pentru IP_2 si pentru fiecare NET, dupa care le comparam si afisam indicele.
+
+
+
+

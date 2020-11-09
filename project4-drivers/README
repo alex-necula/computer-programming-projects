@@ -1,0 +1,34 @@
+README 
+
+Fisiere incluse:
+project.c
+include/project.h
+README
+
+Task 1:
+Parcurgem vectorul cu 2 for-uri si calculam produsul, mai putin elementul de pe pozitia i.
+
+Task 2:
+Alocam o noua matrice, care va fi transpusa matricei initiale, doar ca liniile vor fi in ordine inversa.
+
+Task 3:
+Pentru fiecare pereche de indici, se va calcula suma elementelor unei noi matrice formate intre cele 2 pozitii. Daca elementele sunt unul langa altul, se va calcula suma celor 2 elemente.
+
+Task 4:
+Am declarat fiecare structura. Vom retine starea cursei pe un singur byte folosind unsigned char. 
+Pentru un singur sofer, vom aloca mai intai structura de tip TDrive, iar apoi structurile de tip TRide.
+Vom apela functia allocDriver pentru fiecare sofer din vector.
+
+Task 5:
+Am folosit functiile fread si fwrite pentru a citi/scrie in fisiere binare, conform ordinii variabilelor din enunt.
+
+Task 6:
+Extragem numarul de stele, cat si starea acesteia folosing si logic. Intr-un vector salvam ratingul fiecarui sofer, dupa care calculam maximul din acesta.
+
+Task 7:
+In 2 vectori vom salva distanta si indicativul soferului careia ii corespunde. Dupa aceea vom sorta cu bubble sort cei 2 vectori simultan. Daca exista 2 distante egale, sortam alfabetic in functie de numele soferului.
+Vom returna primii "resultsNo" soferi.
+
+Task 8:
+Pentru fiecare sofer, mai intai dezalocam structurile de tip TRide, dupa care structura de tip TDrive. Apelam functia freeDriver pentru fiecare sofer din vector.
+

@@ -1,0 +1,13 @@
+README
+
+Fisiere incluse:
+bmp.c
+bmp_header.h
+Makefile
+README
+
+Cu ajutorul functiilor readImage si writeImage, sunt retinute in memorie imaginile BMP.
+Pentru taskurile 3, 4, 5 cream o noua matrice intoarsa, pe care o intoarcem din nou 
+dupa aplicarea algoritmului.
+
+La fiecare task vom determina numele fisierului si vom scrie imaginea corespunzatoare.
